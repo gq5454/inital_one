@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <form name ="myform"method="post" action="#">
+	<table>
+		<tr>
+				<td>姓名</td>
+				<td><input type="text"  value="null"></td>
+				
+		</tr>
+		<tr>
+				<td>密码</td>
+				<td><input type="password"  value=""></td>
+				
+		</tr>
+
+		<tr>
+				<td>性别</td>
+				<td>	
+					<input type="radio" name="gender"  value="male"  checked="checked"    >男            <!--想要互斥必须name相同, check为默认按钮 -->
+					<input type="radio" name="gender"  value="female">女
+				</td>
+				
+		</tr>
+		
+		<tr>
+				<td>爱好</td>
+				<td>
+				<input type="checkbox"  value="">足球
+				<input type="checkbox"  value="">篮球
+				<input type="checkbox"  value="">毛球
+				</td>
+				
+		</tr>
+		
+		<tr>
+				<td>上传头像</td>
+				<td>
+				<input type="file"  value="">
+				<input type="submit"  value="提交" >             <!-- 按照form中action地址来提交 -->
+				<input type="reset"  value="重置">
+				</td>
+				
+		</tr>
+		
+		<tr>
+				<td>地址</td>
+				<td>
+				<select name="select">
+					<option value="bj" >北京
+					<option value="sh"  selected>上海        <!-- selected为默认项 -->
+				</select>
+				</td>
+				
+		</tr>
+		<tr>
+				<td>备注</td>
+				<td>
+				<textarea name="" rows="10" cols="50"></textarea>
+				</td>
+				
+		</tr>
+
+	</table>
+	
+ 
+  
+  </form>
+ </body>
+</html>
